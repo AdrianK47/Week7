@@ -5,7 +5,7 @@ public class Grades {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter your grade");
+        System.out.print("Enter your grade: ");
         grade = input.nextInt();
 
         if (grade >= 100){
