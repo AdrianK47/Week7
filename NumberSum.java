@@ -11,10 +11,10 @@ public class NumberSum {
         num = input.nextInt();
 
         while (startNum <= num){
-            System.out.println(startNum*startNum);
+            System.out.println(startNum);
             sum += startNum;
             startNum++;
         }
-        System.out.println("This is the sum:" + sum);
+        System.out.println("This is the sum: " + sum);
     }
 }
